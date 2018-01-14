@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2309B9D61DF14B58004AC6F3 /* DepartmentSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309B9D51DF14B58004AC6F3 /* DepartmentSelectorView.swift */; };
 		235877451DBA607200184D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877441DBA607200184D10 /* AppDelegate.swift */; };
-		235877471DBA607200184D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877461DBA607200184D10 /* ViewController.swift */; };
 		2358774A1DBA607200184D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235877481DBA607200184D10 /* Main.storyboard */; };
 		2358774C1DBA607200184D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2358774B1DBA607200184D10 /* Assets.xcassets */; };
 		2358774F1DBA607200184D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2358774D1DBA607200184D10 /* LaunchScreen.storyboard */; };
 		2358775A1DBA607200184D10 /* ISEETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877591DBA607200184D10 /* ISEETests.swift */; };
 		235877651DBA607200184D10 /* ISEEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877641DBA607200184D10 /* ISEEUITests.swift */; };
+		235877761DBA610F00184D10 /* NoticeContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877721DBA610F00184D10 /* NoticeContentViewController.swift */; };
+		235877771DBA610F00184D10 /* NoticeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877731DBA610F00184D10 /* NoticeListController.swift */; };
+		235877781DBA610F00184D10 /* ShowNoticeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877741DBA610F00184D10 /* ShowNoticeName.swift */; };
+		235877791DBA610F00184D10 /* ViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235877751DBA610F00184D10 /* ViewNavigationController.swift */; };
+		23AD757D1DE5BDFD00F748C6 /* TeachersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD757C1DE5BDFD00F748C6 /* TeachersListViewController.swift */; };
+		23AD757F1DE5C3DB00F748C6 /* TeacherInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD757E1DE5C3DB00F748C6 /* TeacherInfoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2309B9D51DF14B58004AC6F3 /* DepartmentSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentSelectorView.swift; sourceTree = "<group>"; };
 		235877411DBA607200184D10 /* ISEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235877441DBA607200184D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		235877461DBA607200184D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		235877491DBA607200184D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2358774B1DBA607200184D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2358774E1DBA607200184D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		235877601DBA607200184D10 /* ISEEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISEEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		235877641DBA607200184D10 /* ISEEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISEEUITests.swift; sourceTree = "<group>"; };
 		235877661DBA607200184D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235877721DBA610F00184D10 /* NoticeContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeContentViewController.swift; sourceTree = "<group>"; };
+		235877731DBA610F00184D10 /* NoticeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeListController.swift; sourceTree = "<group>"; };
+		235877741DBA610F00184D10 /* ShowNoticeName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowNoticeName.swift; sourceTree = "<group>"; };
+		235877751DBA610F00184D10 /* ViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewNavigationController.swift; sourceTree = "<group>"; };
+		23AD757C1DE5BDFD00F748C6 /* TeachersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersListViewController.swift; sourceTree = "<group>"; };
+		23AD757E1DE5C3DB00F748C6 /* TeacherInfoCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		235877431DBA607200184D10 /* ISEE */ = {
 			isa = PBXGroup;
 			children = (
+				235877721DBA610F00184D10 /* NoticeContentViewController.swift */,
+				235877731DBA610F00184D10 /* NoticeListController.swift */,
+				235877741DBA610F00184D10 /* ShowNoticeName.swift */,
+				235877751DBA610F00184D10 /* ViewNavigationController.swift */,
 				235877441DBA607200184D10 /* AppDelegate.swift */,
-				235877461DBA607200184D10 /* ViewController.swift */,
 				235877481DBA607200184D10 /* Main.storyboard */,
 				2358774B1DBA607200184D10 /* Assets.xcassets */,
 				2358774D1DBA607200184D10 /* LaunchScreen.storyboard */,
 				235877501DBA607200184D10 /* Info.plist */,
+				23AD757C1DE5BDFD00F748C6 /* TeachersListViewController.swift */,
+				23AD757E1DE5C3DB00F748C6 /* TeacherInfoCard.swift */,
+				2309B9D51DF14B58004AC6F3 /* DepartmentSelectorView.swift */,
 			);
 			path = ISEE;
 			sourceTree = "<group>";
@@ -193,7 +211,13 @@
 				TargetAttributes = {
 					235877401DBA607200184D10 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G6B6P5TXY2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					235877541DBA607200184D10 = {
 						CreatedOnToolsVersion = 8.0;
@@ -259,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235877471DBA607200184D10 /* ViewController.swift in Sources */,
+				23AD757D1DE5BDFD00F748C6 /* TeachersListViewController.swift in Sources */,
+				235877771DBA610F00184D10 /* NoticeListController.swift in Sources */,
+				235877761DBA610F00184D10 /* NoticeContentViewController.swift in Sources */,
+				235877791DBA610F00184D10 /* ViewNavigationController.swift in Sources */,
 				235877451DBA607200184D10 /* AppDelegate.swift in Sources */,
+				23AD757F1DE5C3DB00F748C6 /* TeacherInfoCard.swift in Sources */,
+				235877781DBA610F00184D10 /* ShowNoticeName.swift in Sources */,
+				2309B9D61DF14B58004AC6F3 /* DepartmentSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,11 +439,16 @@
 		2358776A1DBA607200184D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G6B6P5TXY2;
 				INFOPLIST_FILE = ISEE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.erene.ISEE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyi.ISEE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -421,10 +456,14 @@
 		2358776B1DBA607200184D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G6B6P5TXY2;
 				INFOPLIST_FILE = ISEE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.erene.ISEE;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyi.ISEE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -503,6 +542,7 @@
 				2358776B1DBA607200184D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2358776C1DBA607200184D10 /* Build configuration list for PBXNativeTarget "ISEETests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +551,7 @@
 				2358776E1DBA607200184D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2358776F1DBA607200184D10 /* Build configuration list for PBXNativeTarget "ISEEUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +560,7 @@
 				235877711DBA607200184D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
